@@ -40,7 +40,8 @@ function takeCell(event)
     let btn = event.target;
     btn.innerText = '[' + nextPlayer + ']';
 
-    // Make sure the button is clickable only once (I didn't mention how to do that, look it up :) ) bruh really
+    // Make sure the button is clickable only once (I didn't mention how to do that, look it up :) )
+   
     btn.disabled = true;
 
     if (nextPlayer === 'X') {
